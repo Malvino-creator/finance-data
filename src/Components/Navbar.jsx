@@ -1,4 +1,8 @@
 import React from 'react'
+import {BiMenu} from "react-icons/bi"
+
+
+
 
 function Navbar() {
   return (
@@ -11,6 +15,9 @@ function Navbar() {
           <li className='p-5'>About</li>
           <li className='p-5'>Contact</li>
         </ul>
+        <div>
+          <BiMenu />
+        </div>
     </div>
   )
 }
