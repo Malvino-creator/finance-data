@@ -1,8 +1,5 @@
 import React from 'react'
-import {BiMenu} from "react-icons/bi"
-
-
-
+import {FiMenu} from "react-icons/fi"
 
 function Navbar() {
   return (
@@ -16,10 +13,13 @@ function Navbar() {
           <li className='p-5'>Contact</li>
         </ul>
         <div>
-          <BiMenu />
+          <FiMenu />
+    
+        
         </div>
+        
     </div>
   )
 }
 
-export default Navbar
+export default Navbar;
