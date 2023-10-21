@@ -1,19 +1,20 @@
 import React from "react";
+import Typed from 'react-typed';
 
 function Home() {
   return (
     <div className="text-white">
       <div className="max-w-[800px] mt[-96px] w-full h-screen mx-auto text-center flex-col justify-center">
-        <p className="text-[yellow] text-lg p-40 font-bold">
-          <h1 className="md:text-7xl sm:text-4xl text-3xl font-bold md:py-6">GROWING WITH <span className="text-white">DESIGN METRICS</span></h1>
-        </p>
-        <p className="md:text-4xl font-bold sm:text-xl">Grow with design</p>
-        <div>
-        <p>Creative, Affordable & Reliable</p>
+
+          <h1 className="md:text-7xl sm:text-4xl text-3xl font-bold md:py-40">GROWING WITH <span className="text-[yellow] font-boldtext-lg ">DESIGN</span></h1>
+          <Typed className="md:text-4xl font-bold sm:text-xl" strings={['Creating', 'Impressionable', 'Brands']} typeSpeed={120} backSpeed={140} loop
+          />
+          <div className="flex justify-center items-center" >
+        <p className="md:text-1xl text-xl font-medium text-gray-400">Creative, Affordable & Reliable</p></div>
         </div>
-        
+        {/* <p className="md:text-4xl font-bold sm:text-xl">Grow with design</p> */}
       </div>
-    </div>
+
   );
 }
 
