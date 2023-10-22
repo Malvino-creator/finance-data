@@ -7,10 +7,12 @@ function Home() {
       <div className="max-w-[800px] mt[-96px] w-full h-screen mx-auto text-center flex-col justify-center">
 
           <h1 className="md:text-7xl sm:text-4xl text-3xl font-bold md:py-40">GROWING WITH <span className="text-[yellow] font-boldtext-lg ">DESIGN</span></h1>
-          <Typed className="md:text-4xl font-bold sm:text-xl" strings={['Creating', 'Impressionable', 'Brands']} typeSpeed={120} backSpeed={140} loop
+          <Typed className="md:text-4xl font-bold sm:text-xl" strings= {['Creating', 'Impressionable', 'Brands']} typeSpeed={120} backSpeed={140} loop
           />
           <div className="flex justify-center items-center" >
-        <p className="md:text-1xl text-xl font-medium text-gray-400">Creative, Affordable & Reliable</p></div>
+        <p className="md:text-1xl text-xl font-medium text-gray-400">Creative, Affordable & Reliable</p>
+        </div>
+        <button className="bg-[yellow] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black"> Get Started</button>
         </div>
         {/* <p className="md:text-4xl font-bold sm:text-xl">Grow with design</p> */}
       </div>
