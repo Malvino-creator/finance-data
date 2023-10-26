@@ -14,7 +14,6 @@ function Home() {
         </div>
         <button className="bg-[yellow] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black"> Get Started</button>
         </div>
-        {/* <p className="md:text-4xl font-bold sm:text-xl">Grow with design</p> */}
       </div>
 
   );
