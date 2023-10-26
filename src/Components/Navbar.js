@@ -14,7 +14,8 @@ function Navbar() {
           <li className='p-5'>About</li>
           <li className='p-5'>Contact</li>
         </ul>
-        <button className="bg-[yellow] w-[300px] rounded-md font-medium my-4 mx-auto py-2 text-black"> Get Started</button>
+        <button className="bg-[yellow] w-[300px] rounded-md font-medium my-2 mx-auto py-2 text-black ">Sign Up</button>
+        <button className="bg-[yellow] w-[300px] rounded-md font-medium my-2 mx-auto py-2 text-black"> Login</button>
         <div>
           <FiMenu />
         </div>

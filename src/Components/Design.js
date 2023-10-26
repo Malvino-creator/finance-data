@@ -9,7 +9,7 @@ function Design() {
           <img className="w-[600px] mx-auto y-2 float-right py-3" src={designer} alt="designer" />
         </div>
         <div className="text-black flex flex-col justify-left font-semibold p-1">
-          <p className="text-[#ffff0a] font-bold">DESIGN WITH A PURPOSE!</p>
+          <p className="text-[black] font-bold">DESIGN WITH A PURPOSE!</p>
           <h1 className="md:text-4xl sm:text-3xl text-1xl font-bold py-4">Showcase your Designs & Inspirations</h1>
           <p>
             Our top most priority at Khalisi is to stand out, captivate, and
