@@ -4,6 +4,8 @@ import Home from "./Components/Home";
 import Design from "./Components/Design";
 import Newsletter from "./Components/Newsletter";
 import Card from "./Components/Card";
+import Footer from "./Components/Footer";
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Design />
       <Newsletter />
       <Card />
+      <Footer />
     </div>
   );
 }
