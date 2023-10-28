@@ -16,7 +16,7 @@ function Card() {
             <p className="py-2 border-b mx-8 mt-8">1 Granted User</p>
             <p className="py-2 border-b mx-8 mt-8">Send up to 2GB</p>
           </div>
-          <button className="bg-[black] text-[white] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-24 py-3 ">
+          <button className="bg-[black] text-[white] w-[200px]  hover:bg-yellow-300 rounded-md font-medium my-6 mx-auto md:mx-24 py-3 ">
             Begin Trial
           </button>
         </div>
@@ -29,7 +29,7 @@ function Card() {
             <p className="py-2 border-b mx-8 mt-8">2 Granted Users</p>
             <p className="py-2 border-b mx-8 mt-8">Send up to 2GB</p>
           </div>
-          <button className="bg-[yellow] text-[black] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-24 py-3 ">
+          <button className="bg-[yellow] text-[black] w-[200px] rounded-md hover:bg-yellow-300 font-medium my-6 mx-auto md:mx-24 py-3  ">
             Begin Trial
           </button>
         </div>
@@ -46,7 +46,7 @@ function Card() {
             <p className="py-2 border-b mx-8 mt-8">3 Granted User</p>
             <p className="py-2 border-b mx-8 mt-8">Send up to 2GB</p>
           </div>
-          <button className="bg-[black] text-[white] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-24 py-3 ">
+          <button className="bg-[black] text-[white] w-[200px] hover:bg-yellow-300  rounded-md font-medium my-6 mx-auto md:mx-24 py-3  ">
             Begin Trial
           </button>
         </div>

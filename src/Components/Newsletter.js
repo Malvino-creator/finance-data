@@ -17,14 +17,14 @@ function Newsletter() {
               type="email"
               placeholder="Enter email"
             />
-            <button className="bg-[yellow] text-[black] w-[150px] rounded-md font-medium my-2 mx-auto md:mx-3 py-2 justify-between">
+            <button className="bg-[yellow] text-[black] w-[150px] rounded-md  hover:bg-yellow-300  font-medium my-2 mx-auto md:mx-3 py-2 justify-between">
               Notify me
             </button>
           </div>
           <p>
             {" "}
             We care about the inspiration to your designs. Read our{" "}
-            <span className="text-yellow-500">
+            <span className="text-yellow-500 hover:caret-yellow-400 ">
               <a href="privacy">Privacy Policy</a>
             </span>
           </p>

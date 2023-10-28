@@ -17,7 +17,7 @@ function Design() {
             <br/>Our graphic services breathe life into your vision,
             elevating your brand and making it unforgettable. 
           </p>
-          <button className="bg-[black] text-[white] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 ">Get started</button>
+          <button className="bg-[black] text-[white] w-[200px]  hover:bg-yellow-300 rounded-md font-medium my-6 mx-auto md:mx-0 py-3 ">Get started</button>
         </div>
       </div>
     </div>
