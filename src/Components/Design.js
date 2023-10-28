@@ -16,10 +16,6 @@ function Design() {
             inspire. 
             <br/>Our graphic services breathe life into your vision,
             elevating your brand and making it unforgettable. 
-
-            {/* <br></br>
-            Ready to take your brand to the next level? Contact us today for a free consultation
-            and discover how our exceptional graphic design can make a difference for your business. */}
           </p>
           <button className="bg-[black] text-[white] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 ">Get started</button>
         </div>
