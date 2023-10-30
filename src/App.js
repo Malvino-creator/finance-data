@@ -5,7 +5,7 @@ import Design from "./Components/Design";
 import Newsletter from "./Components/Newsletter";
 import Card from "./Components/Card";
 import Footer from "./Components/Footer";
-import Login from "./Components/Login";
+import LoginForm from "./Components/LoginForm";
 import SignupForm from "./Components/SignupForm";
 
 
@@ -18,7 +18,9 @@ function App() {
       <Newsletter />
       <Card />
       <Footer />
+      <LoginForm />
       <SignupForm />
+
     </div>
   );
 }
