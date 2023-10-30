@@ -6,19 +6,19 @@ import Newsletter from "./Components/Newsletter";
 import Card from "./Components/Card";
 import Footer from "./Components/Footer";
 import Login from "./Components/Login";
-import SignUp from "./Components/SignUp";
+import SignupForm from "./Components/SignupForm";
+
 
 function App() {
   return (
     <div>
-      <Login />
-      <SignUp />
       <Navbar />
       <Home />
       <Design />
       <Newsletter />
       <Card />
       <Footer />
+      <SignupForm />
     </div>
   );
 }
