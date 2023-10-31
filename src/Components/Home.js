@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from 'react-typed';
 
+
 function Home() {
   return (
     <div className="text-white py-30">

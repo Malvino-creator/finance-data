@@ -1,89 +1,31 @@
-// import React from 'react'
-
-// function Login() {
-//   return (
-//     <div className='bg-zinc-200 flex justify-center h-screen'>
-//         <form action=''>
-//             <div className='bg-white pl-10 h-96 w-[300px] flex flex-col justify-center items-center '>
-//                 <p className='font-semibold tesxt-2xl tracking-wide'>Login</p>
-//             </div>
-//             <div className='mr-5'>
-//                 <p className='text-zinc-600 font-semibold'>Email</p>
-//                 <input className='outline-none h-10 border-sm w-full' type='text' placeholder='Email' required/>
-//             </div>
-//             <div>
-//                 <p>Password</p>
-//             <input type='password' placeholder='Password' required/>
-//             </div>
-//         </form>
-//     </div>
-//   )
-// }
-
-// export default Login
-import React, { useState } from 'react';
+import React from 'react'
+import trees from "../assets/trees.jpg"
+import logo from "../../src/assets/logo.png"
 
 function LoginForm() {
-  const [formData, setFormData] = useState({
-    email: '',
-    password: '',
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle login submission logic here
-  };
-
   return (
-    <div className="w-full max-w-sm m-auto">
-      <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={handleSubmit}>
-        <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-            Email
-          </label>
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Email"
-            value={formData.email}
-            onChange={handleChange}
-          />
+    <div className='w-full h-screen flex'>
+        <div className='grid grid-cols-1 md:grid-cols-2 m-auto h-[450px] shadow-lg shadow-gray-600 sm:max-w-[900px]'>
+            <div className='w-full h-[450px] hidden md:block'>
+                <img className='w-full h-full' src={trees} alt="/" />
+            </div>
+            <div className='p-4 flex flex-col justify-around'>
+                <form>
+                <img  className="mr-50"src={logo} alt='logo' />
+
+                    <h2 className='text-white text-3xl font-bold text-center'><span className="text-yellow-500">KHA</span>LISI .</h2>
+                    <div className='md:rounded'>
+                        <input className=' md:rounded w-full py-2 my-4 border p-3 mr-2' type="text" placeholder='Username' />
+                        <input className=' md:rounded w-full py-2 my-4 border p-3' type="password" placeholder='Password' />
+                    </div>
+                    <button className=' md:rounded w-full py-2 my-4 bg-green-600 hover:bg-green-500'>Log In</button>
+                    <p className='text-center text-white'>Forgot Username or Password?</p>
+                </form>
+                <p className='text-center text-white underline'>Sign Up</p>
+            </div>
         </div>
-        <div className="mb-6">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
-            Password
-          </label>
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Password"
-            value={formData.password}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="flex items-center justify-between">
-          <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-            type="submit"
-          >
-            Log In
-          </button>
-        </div>
-      </form>
     </div>
-  );
+  )
 }
 
-export default LoginForm;
+export default LoginForm

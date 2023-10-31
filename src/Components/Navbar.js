@@ -1,6 +1,7 @@
 import React from 'react'
 // import {FiMenu} from "react-icons/fi"
 import logo from "../../src/assets/logo.png"
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -15,9 +16,16 @@ function Navbar() {
           <li className='p-5'>Contact</li>
         </ul>
         <div className="flex space-x-6">
-        <button className="bg-[yellow] w-[100px] rounded-md font-medium my-2 mx-auto py-2 text-black ">Sign Up</button>
-        <button className="bg-[yellow] w-[100px] rounded-md font-medium my-2 mx-auto py-2 text-black ">Login</button>
-        
+          
+        {/* <button className="bg-[yellow] w-[100px] rounded-md font-medium my-2 mx-auto py-2 text-black ">Sign Up</button>
+        <button className="bg-[yellow] w-[300px] rounded-md font-medium my-2 mx-auto py-2 text-black ">Login</button>
+       */}
+       <a href="/SignUpForm">
+        <button className='bg-[yellow] w-[100px] rounded-md font-medium my-1 mx-auto py-1 text-black'>Sign Up</button>
+      </a>
+      <a href="/LoginForm">
+        <button className='bg-[yellow] w-[100px] rounded-md font-medium my-1 mx-auto py-1 text-black'>Login</button>
+      </a>
         </div>
         
         {/* <div>
