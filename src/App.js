@@ -29,6 +29,7 @@ function App() {
     <Routes>
         <Route path="/loginform" element={<LoginForm/>} />
         <Route path="/signupform" element={<SignupForm />} />
+        <Route path="/Home" element={<Home />} />
     </Routes> 
    </BrowserRouter>
    

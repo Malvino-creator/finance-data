@@ -80,7 +80,8 @@
 
 // export default SignupForm;
 import React, { useState } from "react";
-import trees from "../assets/trees.jpg"
+import trees from "../assets/trees.jpg";
+import logo from "../assets/logo.png";
 
 function SignUpForm() {
   const [name, setName] = useState("");
@@ -102,59 +103,24 @@ function SignUpForm() {
         <div className="w-full h-[450px] hidden md:block">
           <img className="w-full h-full" src={trees} alt="/" />
         </div>
-        <h2 className="text-2xl font-semibold text-center">Sign Up</h2>
+        <h2 className="text-white text-3xl font-bold text-center">
+          <span className="text-yellow-500">KHA</span>LISI .
+        </h2>
+        <img className="mr-50" src={logo} alt="logo" />
         <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label
-              htmlFor="name"
-              className="block text-sm font-medium text-gray-600"
-            >
-              Name
-            </label>
+          <div className="md:rounded">
             <input
+              className=" md:rounded w-full py-2 my-4 border p-3 mr-2"
               type="text"
-              id="name"
-              name="name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              className="w-full mt-1 p-3 rounded-lg border border-gray-300"
-              required
+              placeholder="Username"
             />
-          </div>
-          <div>
-            <label
-              htmlFor="email"
-              className="block text-sm font-medium text-gray-600"
-            >
-              Email
-            </label>
             <input
-              type="email"
-              id="email"
-              name="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="w-full mt-1 p-3 rounded-lg border border-gray-300"
-              required
-            />
-          </div>
-          <div>
-            <label
-              htmlFor="password"
-              className="block text-sm font-medium text-gray-600"
-            >
-              Password
-            </label>
-            <input
+              className=" md:rounded w-full py-2 my-4 border p-3"
               type="password"
-              id="password"
-              name="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="w-full mt-1 p-3 rounded-lg border border-gray-300"
-              required
+              placeholder="Password"
             />
           </div>
+
           <div>
             <button
               type="submit"
