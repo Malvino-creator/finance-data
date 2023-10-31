@@ -1,8 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import trees from "../assets/trees.jpg"
 import logo from "../../src/assets/logo.png"
+// import { useState } from 'react';
+
 
 function LoginForm() {
+  // const [email, setEmail] = useState('');
+  // const [password, setPassword] = useState('');
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   // Add your login logic here.
+  //   // Example:
+  //   console.log('Email:', email);
+  //   console.log('Password:', password);
+  // }
+
+
   return (
     <div className='w-full h-screen flex'>
         <div className='grid grid-cols-1 md:grid-cols-2 m-auto h-[450px] shadow-lg shadow-gray-600 sm:max-w-[900px]'>
